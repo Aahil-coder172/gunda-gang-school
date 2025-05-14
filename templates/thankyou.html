@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome!</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>🎉 You're In!</h1>
+  </header>
+  <main>
+    <section class="hero">
+      <h2>Welcome to the gang, {{ code_name }}!</h2>
+      <p>Your entry has been recorded in our official Google Sheet!</p>
+      <a href="/" style="color:#00ffcc;">🔙 Go Back to Home</a>
+    </section>
+  </main>
+</body>
+</html>
